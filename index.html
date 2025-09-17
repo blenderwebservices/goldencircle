@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Círculo Dorado - Francisco y Axiacore Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+    <!-- Header -->
+    <header class="bg-blue-900 text-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl font-bold">Círculo Dorado</h1>
+            <p class="mt-2 text-lg">Francisco Ricardo Gómez Barragán & Axiacore Hub</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-12">
+        <!-- Francisco Section -->
+        <section id="francisco" class="mb-16">
+            <div class="relative h-64 mb-6">
+                <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Tecnología humana" class="w-full h-full object-cover rounded-lg">
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+                    <h2 class="text-3xl font-bold text-white">Francisco Ricardo Gómez Barragán</h2>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 fade-in">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-blue-900 mb-2">Porqué</h3>
+                    <p class="text-gray-700">Empoderar a las personas y empresas brindándoles soluciones tecnológicas que respeten su dignidad y se centren en sus necesidades reales. Creo en un mundo donde la tecnología no solo resuelve problemas, sino que conecta con las personas de manera humana y significativa.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-blue-900 mb-2">Cómo</h3>
+                    <ul class="list-disc list-inside text-gray-700">
+                        <li>Diseñamos interfaces intuitivas, atractivas y fáciles de usar que priorizan la experiencia del usuario.</li>
+                        <li>Utilizamos tecnologías innovadoras y metodologías ágiles (como Lean Startup) para entregar soluciones rápidas y adaptadas.</li>
+                        <li>Ofrecemos atención personalizada, escuchando activamente para entender y satisfacer las necesidades del cliente.</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-blue-900 mb-2">Qué</h3>
+                    <ul class="list-disc list-inside text-gray-700">
+                        <li>Desarrollo de aplicaciones móviles y web para consulta de información y enseñanza, incluyendo simulaciones interactivas de teoría de juegos.</li>
+                        <li>Cursos especializados en teoría de juegos y lenguajes de programación.</li>
+                        <li>Servicios de reparación de computadoras, creación de sitios web y apps personalizadas.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Axiacore Hub Section -->
+        <section id="axiacore">
+            <div class="relative h-64 mb-6">
+                <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Procesos empresariales" class="w-full h-full object-cover rounded-lg">
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+                    <h2 class="text-3xl font-bold text-white">Axiacore Hub</h2>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 fade-in">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-blue-900 mb-2">Porqué</h3>
+                    <p class="text-gray-700">Transformar la gestión empresarial mediante soluciones que optimicen procesos, fortalezcan la lealtad del cliente y promuevan la calidad con costos mínimos. Nuestra pasión es simplificar la complejidad administrativa para que las empresas crezcan con confianza y eficiencia.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-blue-900 mb-2">Cómo</h3>
+                    <ul class="list-disc list-inside text-gray-700">
+                        <li>Implementamos plataformas robustas como GEEST y Odoo, adaptándolas a las necesidades específicas de cada cliente.</li>
+                        <li>Ofrecemos consultoría estratégica para diseñar procesos eficientes y centrados en la calidad.</li>
+                        <li>Utilizamos herramientas como el Test de Hartman para alinear valores y mejorar la toma de decisiones, minimizando quejas y maximizando satisfacción.</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-blue-900 mb-2">Qué</h3>
+                    <ul class="list-disc list-inside text-gray-700">
+                        <li>Renta de plataformas de documentación de procesos y ERP (GEEST, Odoo).</li>
+                        <li>Consultoría en optimización de procesos empresariales.</li>
+                        <li>Implementación del Test de Hartman como herramienta de alineación estratégica y mejora organizacional.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 Francisco Ricardo Gómez Barragán & Axiacore Hub. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Fade-In Animation -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const elements = document.querySelectorAll('.fade-in');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            elements.forEach(element => observer.observe(element));
+        });
+    </script>
+</body>
+</html>
